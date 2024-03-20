@@ -28,15 +28,7 @@ Project requirements:
 
 We need to have SASS installed on the machine we will be working on. There are two ways to use it in projects: 
   - One of them is by installing a VSCode plugin called [Live SASS Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-SASS). To use it, once you have the main .scss/.SASS file created, you can use the shortcut 'ctrl' + 'shift' + 'p' and click on the option 'Live SASS: Watch SASS', or go to the bottom bar and click on the 'Watch SASS' button. This causes the compiler to generate files with the '.css' extension, which will be read by the browser, bringing style to the page.
-  - Another way is to install SASS using npm. In this way, you need to have Node.js installed on your machine. Then, simply install using the terminal by using the command:
-    <div style="background-color: #f4f4f4; padding: 10px;">
-      npm install -g SASS
-    </div>
-    and wait for the installation to complete.. Next, check if the installation went well with the command:
-    <div style="background-color: #f4f4f4; padding: 10px;">
-      SASS --version
-    </div>
-    which will return the SASS version.
+  - Another way is to install SASS using npm. In this way, you need to have Node.js installed on your machine. Then, simply install using the terminal by using the command `npm install -g SASS` and wait for the installation to complete.. Next, check if the installation went well with the command `SASS --version`, which will return the SASS version.
 
 Access the project hosted [here](https://portfolio-page-five-alpha.vercel.app) and have fun:
  - Project hosted on Vercel.
