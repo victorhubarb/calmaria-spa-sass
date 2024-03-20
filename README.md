@@ -30,9 +30,9 @@ We need to have SASS installed on the machine we will be working on. There are t
   - One of them is by installing a VSCode plugin called [Live SASS Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-SASS). To use it, once you have the main .scss/.SASS file created, you can use the shortcut 'ctrl' + 'shift' + 'p' and click on the option 'Live SASS: Watch SASS', or go to the bottom bar and click on the 'Watch SASS' button. This causes the compiler to generate files with the '.css' extension, which will be read by the browser, bringing style to the page.
   - Another way is to install SASS using npm. In this way, you need to have Node.js installed on your machine. Then, simply install using the terminal by using the command `npm install -g SASS` and wait for the installation to complete.. Next, check if the installation went well with the command `SASS --version`, which will return the SASS version.
 
-Access the project hosted [here](https://portfolio-page-five-alpha.vercel.app) and have fun:
+Access the project hosted [here](https://calmaria-spa-livid.vercel.app) and have fun:
  - Project hosted on Vercel.
- - Easy implementation, [click](https://portfolio-page-five-alpha.vercel.app) and enter the project, try it out easily and quickly without needing to download the files to your own computer.
+ - Easy implementation, [click](https://calmaria-spa-livid.vercel.app) and enter the project, try it out easily and quickly without needing to download the files to your own computer.
 
 Have the code on your computer:
  - Access the project source code [here](https://github.com/victorhubarb/calmaria-spa) or download the project [here](https://github.com/victorhubarb/calmaria-spa/archive/refs/heads/main.zip). After one of these steps, and also unzip it on your computer in case of download, open the project in your preferred IDE.
