@@ -12,35 +12,38 @@
 * [Project Developers](#project-developers)
 
 ## Project Description
-The visual design of the page was completely developed using the Sass preprocessor for a spa company, aiming to showcase who they are, the services offered, and also a contact form for people visiting the page.
+The Calmaria Spa landing page is a meticulously crafted front-end project that showcases the spa's offerings through a modern, stylish interface built with HTML, CSS, and SASS. This page is designed to provide a seamless user experience, guiding potential clients through various sections that highlight the spa's services, environment, and special offers. Each section is intuitively designed, featuring interactive elements that enhance user engagement and provide detailed information about the spa's unique aspects.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
 ## Features and Application Demonstration
-- `Feature 1`: The visual design of the entire page was developed entirely using the Sass preprocessor.
-- `Feature 2`: Application of 3 different sections on the landing page, connected by the navigation menu taking you to the desired section.
-- `Feature 3`: Creation of a contact form on the page for client input and also a button for submission.
-Note: This page has not been developed for smaller screens yet; it is currently not responsive.
+- **Interactive Dropdown Menu**: Utilizes SASS to create a smooth dropdown experience in the navigation bar. Hovering over the "Our Space" menu item triggers a rotation animation on the arrow and reveals additional clickable options.
+- **Dynamic Call to Action Buttons**: Strategically placed throughout the site, these buttons change color on hover and are designed to guide users towards taking actions, such as subscribing or booking a service.
+- **Product and Service Cards**: Three distinct cards display key benefits of the spa's services. Each card combines eye-catching design with concise information, providing a quick overview of what the spa offers.
+- **Subscription Modal**: An interactive modal confirms subscription success with a visually appealing design and straightforward messaging, enhancing user satisfaction.
+- **Contact Us Modal**: Features an accessible contact form within a modal, which appears upon clicking the 'Contact Us' button. The form includes fields for name, email, phone number, and a message, and confirms message delivery with a success modal.
+- **Accordion FAQ Section**: Implemented with SASS and JavaScript, this section addresses common queries through a click-to-reveal functionality, where each accordion button expands to show answers and collapses upon re-click.
+- **SASS Styling**: Advanced SASS features like nested rules, variables, and mixins are used to create complex, maintainable, and reusable styles that make the site both attractive and efficient in terms of load times.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Access
-Project requirements:
- - Have your preferred IDE installed on your computer.
 
-We need to have SASS installed on the machine we will be working on. There are two ways to use it in projects: 
-  - One of them is by installing a VSCode plugin called [Live SASS Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-SASS). To use it, once you have the main .scss/.SASS file created, you can use the shortcut 'ctrl' + 'shift' + 'p' and click on the option 'Live SASS: Watch SASS', or go to the bottom bar and click on the 'Watch SASS' button. This causes the compiler to generate files with the '.css' extension, which will be read by the browser, bringing style to the page.
-  - Another way is to install SASS using npm. In this way, you need to have Node.js installed on your machine. Then, simply install using the terminal by using the command `npm install -g SASS` and wait for the installation to complete.. Next, check if the installation went well with the command `SASS --version`, which will return the SASS version.
+### Prerequisites
+- **Integrated Development Environment (IDE)**: Ensure you have your preferred IDE installed, such as Visual Studio Code.
+- **SASS Installation**: There are two primary methods to use SASS in your projects:
+  - **VSCode Live SASS Compiler**: Install the [Live SASS Compiler extension](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-SASS) for Visual Studio Code. Activate it by pressing `Ctrl + Shift + P` and selecting 'Live SASS: Watch SASS', or clicking the 'Watch SASS' button on the bottom bar. This will compile `.scss` files into `.css` files in real time.
+  - **Node.js SASS**: If you prefer using the command line, first install Node.js. Then, install SASS globally using `npm install -g sass`. Verify the installation with `sass --version`.
 
-Access the project hosted [here](https://calmaria-spa-sass-eight.vercel.app) and have fun:
- - Project hosted on Vercel.
- - Easy implementation, [click](https://calmaria-spa-sass-eight.vercel.app) and enter the project, try it out easily and quickly without needing to download the files to your own computer.
+### Online Access
+- **Live Demo**: Visit the hosted version of Calmaria Spa on Vercel for a quick preview without any setup:
+  - [Calmaria Spa SASS Edition](https://calmaria-spa-gexe.vercel.app)
 
-Have the code on your computer:
- - Access the project source code [here](https://github.com/victorhubarb/calmaria-spa-sass) or download the project [here](https://github.com/victorhubarb/calmaria-spa-sass/archive/refs/heads/main.zip). After one of these steps, and also unzip it on your computer in case of download, open the project in your preferred IDE.
-
-Clone the repository with the following steps:
- 1. Open the terminal
- 2. git clone https://github.com/victorhubarb/calmaria-spa-sass.git
- 3. Press ENTER to create your clone
+### Local Setup
+- **Direct Download**:
+  - [Download the source code ZIP](https://github.com/victorhubarb/calmaria-spa-sass/archive/refs/heads/main.zip) from GitHub, unzip it, and open the project in your IDE.
+- **Clone the Repository**:
+  ```bash
+  git clone https://github.com/victorhubarb/calmaria-spa-sass.git
+  cd calmaria-spa-sass
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Technologies Used
